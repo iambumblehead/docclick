@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>test</title>
+    <!-- <scrounge type=".css" trees="docclick-test.js"> -->
+    <!-- </scrounge> -->
+
+    <!-- <scrounge type=".js" trees="docclick-test.js"> -->
+    <!-- </scrounge> -->
+  </head>
+  <body>
+
+    <ul class="links">
+      <li id="Link1" class="link show">
+        <span>should not catch a non-link element</span>
+      </li>
+      <li id="Link2" class="link show">
+        <a href="/link" class="popup">
+          <span>should catch an element childed to a link</span>
+        </a>
+      </li>
+      <li id="Link2" class="link show">
+        <a href="/link">        
+          <span>should not catch an element that does not pass filter</span>
+        </a>
+      </li>
+      <li id="Link3" class="link show">
+        <a href="/link" class="internal">        
+          <span>should catch an element bound from a second docclick</span>
+        </a>
+      </li>
+      <li id="Link4" class="link show">
+        <span>show screen D with themed element</span>
+      </li>
+    </ul>
+
+    <div class="slug"></div>
+
+    <script type="text/javascript">
+      docclicktest.init();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/* Filename: docclick-test.less  
+ * Timestamp: 2014.01.18-18:41:02 (last modified)  
+ * Author(s): Bumblehead (www.bumblehead.com)  
+ */
+
+.link.show {
+    padding:10px;
+    background-color:#afa;
+}
+
+.links, .link {
+    display:inline-block;
+    padding:10px 0;
+    margin:10px 0 0 0;
+    clear:left;
+    float:left;
+}
+
+.slug {
+    min-height:1000px;
+    background-color:#aaf;
+}
