@@ -1,12 +1,12 @@
 {
-  "name": "docatch",
+  "name": "docclick",
   "version": "0.0.1",
   "readmeFilename": "README.md",
   "license" : "MIT",
-  "description": " --- ",
+  "description": "returns document click events to a function",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iambumblehead/docatch.git"
+    "url": "https://github.com/iambumblehead/docclick.git"
   },
   "keywords": [
     "document",
