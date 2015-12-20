@@ -1,5 +1,5 @@
 // Filename: docclick.js
-// Timestamp: 2015.12.20-00:29:28 (last modified)
+// Timestamp: 2015.12.20-01:38:09 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)
 
 var lsn = require('lsn'),
@@ -69,7 +69,7 @@ var docclick = module.exports = (function (p) {
     that.elem = (opts && opts.elem) ? opts.elem : document.body;
     that.fnFilterArr = [];
     that.connect();
-    that.atClickHook = eventhook.getNew();
+    that.atClickHook = eventhook();
 
     return that;
   };

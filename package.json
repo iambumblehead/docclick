@@ -1,7 +1,7 @@
 {
   "name": "docclick",
   "main": "docclick",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "returns document click events to a function",
