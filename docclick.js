@@ -1,13 +1,12 @@
 // Filename: docclick.js
-// Timestamp: 2014.01.18-21:16:51 (last modified)  
+// Timestamp: 2015.12.20-00:29:28 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)
-// Requires: lsn.js, domev.js, eventhook.js
 
 var lsn = require('lsn'),
     domev = require('domev'),
     eventhook = require('eventhook');
 
-var docclick = (function (p) {
+var docclick = module.exports = (function (p) {
 
   var proto = {
     count : 0,

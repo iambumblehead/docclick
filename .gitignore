@@ -3,3 +3,4 @@ npm-debug.log
 node_modules
 test/index.html
 test/testbuildFin
+.tern-port
